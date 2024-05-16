@@ -11,7 +11,7 @@ strategy:
   maxParallel: 2
 
 pool:
-  vmImage: $(imageName)
+  vmImage: "ubuntu-latest"
 
 steps:
  - task: Maven@4
